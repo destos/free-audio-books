@@ -1,0 +1,36 @@
+# Bleeding edge Django
+django==1.7.4
+
+# Configuration
+#django-configurations==0.8
+git+http://github.com/jezdez/django-configurations.git@c60b7daac4ca37621f5b89fd3738b13e8b20746d#egg=configurations
+django-secure==1.0.1
+django-cache-url==0.8.0
+dj-database-url==0.3.0
+
+# Forms
+# Models
+django-model-utils==2.2
+
+# Images
+Pillow==2.7.0
+
+
+# For the persistence stores
+psycopg2==2.6
+
+# Unicode slugification
+unicode-slugify==0.1.3
+django-autoslug==1.7.2
+
+
+# Time zones support
+pytz==2014.10
+
+# Your custom requirements go here
+Scrapy==0.24.4
+service-identity==14.0.0
+django-mptt==0.6.1
+django-sizefield==0.6
+django_mptt_admin==0.1.10
+arrow==0.5.4
